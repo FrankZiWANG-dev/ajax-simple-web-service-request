@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
@@ -14,17 +14,24 @@
     <title>Inspirational Quote</title>
 </head>
 <body>
-    <h1> Inspirational Quote Generator</h1>
-
-    <blockquote id="quote">
-    </blockquote>
-    <div id="author"></div>
+    <h1> Inspirational Quote Generator</h1>    
+    
+<div id="container">
+    
     <div id="photo">
     </div>
-    <div id="reference"></div>
+    
+    <div id="right-cell">
+        <blockquote id="quote"></blockquote>
+        <div id="author"></div>
+    </div>
 
-    <button id="reload"> More wisdom! </button>
-
+    <div id="bottom-cell">
+        <div id="reference"></div>
+        <button id="reload"> More wisdom! </button>
+    </div>
+    
+</div>
 <script src="assets/script.js"></script>
 </body>
 </html>

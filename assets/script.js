@@ -31,7 +31,6 @@ request.onload = function(){
             photo.innerHTML = '<img src="'+quote.photo+'" id="photosize">';
             document.getElementById("photosize").style.maxHeight = "300px";
             document.getElementById("photosize").style.maxWidth = "300px";
-            document.getElementById("photosize").style.alignSelf = "center";
         }
         
         //add reference
