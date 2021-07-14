@@ -1,0 +1,10 @@
+#photo {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+#photosize {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=style.css.map */
