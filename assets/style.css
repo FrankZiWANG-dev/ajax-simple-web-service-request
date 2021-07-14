@@ -1,10 +1,25 @@
+body {
+  font-family: 'Yomogi', cursive;
+}
+
+h1 {
+  font-family: 'Yomogi', cursive;
+}
+
 #photo {
   max-height: 300px;
   max-width: 300px;
 }
 
 #photosize {
+  max-width: 300px;
+  max-height: 300px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+button {
+  font-family: 'Yomogi', cursive;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
