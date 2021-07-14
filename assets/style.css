@@ -1,24 +1,50 @@
 body {
   font-family: 'Yomogi', cursive;
-  background-image: url("https://github.com/FrankZiWANG-dev/ajax-simple-web-service-request/blob/main/assets/images/background.jpeg?raw=true");
+  color: white;
+  text-shadow: 2px;
+  text-align: center;
+  background-image: url("https://github.com/FrankZiWANG-dev/ajax-simple-web-service-request/blob/main/assets/images/background.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 h1 {
   font-family: 'Yomogi', cursive;
+  color: white;
+  text-shadow: 2px;
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 150%;
+}
+
+#author {
+  font-style: italic;
+  font-size: 120%;
 }
 
 #photo {
-  max-height: 300px;
-  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-#photosize {
-  max-width: 300px;
-  max-height: 300px;
-  -o-object-fit: contain;
-     object-fit: contain;
+a {
+  font-family: 'Yomogi', cursive;
+  color: white;
+  text-shadow: 2px;
+  text-align: center;
+  font-style: italic;
 }
 
 button {

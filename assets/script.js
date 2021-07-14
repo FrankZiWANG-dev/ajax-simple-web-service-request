@@ -29,10 +29,13 @@ request.onload = function(){
        //add img tag with src in photo div to display photo from external website
         if (quote.photo !== null) {
             photo.innerHTML = '<img src="'+quote.photo+'" id="photosize">';
+            document.getElementById("photosize").style.maxHeight = "300px";
+            document.getElementById("photosize").style.maxWidth = "300px";
+            document.getElementById("photosize").style.alignSelf = "center";
         }
         
         //add reference
-        reference.innerHTML = '<i> <a href="' + quote.permalink + '"> Original quote on "thatsthespir.it" </a></i> ';
+        reference.innerHTML = '<a href="' + quote.permalink + '"> Original quote on "thatsthespir.it" </a>';
 
         console.log(quote);
     }
@@ -49,5 +52,5 @@ document.getElementById("reload").addEventListener("click", ()=>{
 
 //add lightbulb royalty free image if no available picture
 // if (document.getElementById("photo").innerHTML == null) {
-//     document.getElementById("photo").innerHTML ='<img src="https://raw.githubusercontent.com/FrankZiWANG-dev/ajax-simple-web-service-request/main/assets/images/pexels-pixabay-355952.jpg" id="photosize">';
+//     document.getElementById("photo").innerHTML ='<img src="https://github.com/FrankZiWANG-dev/ajax-simple-web-service-request/blob/main/assets/images/lightbulb.jpg?raw=true" id="photosize">';
 // }
